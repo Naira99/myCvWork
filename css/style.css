@@ -17,6 +17,10 @@ body {
     overflow-y: hidden;
 }
 
+.about-me {
+    font-size: 23px;
+}
+
 h4 {
     font-size: 60px;
     font-family: 'Ranchers', cursive;
@@ -25,6 +29,21 @@ h4 {
 .bg_image::before {
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fa_env {
+    position: relative;
+}
+
+.fa_env .fa {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+}
+
+textarea {
+    border-radius: 50px!important;
+    /*min-height: 38px!important;*/
 }
 
 nav {
@@ -164,6 +183,10 @@ nav ul li a:hover {
 
 
 /*responsive menu*/
+
+button {
+    outline: none
+}
 
 .burger {
     display: none
@@ -489,15 +512,15 @@ img {
 
 
 /*contact*/
-
+.success-message{display: none}
 .inputs {
     display: flex;
     justify-content: center;
     position: relative;
     bottom: 450px;
-    /* width: 600px; */
     margin: auto;
 }
+
 
 #in {
     border-radius: 50px;
@@ -529,6 +552,10 @@ img {
     left: 31px;
 }
 
+.contact b {
+    text-transform: capitalize;
+}
+
 
 /*footer*/
 
@@ -541,7 +568,7 @@ footer .fa {
 }
 
 footer h1 {
-    color: #378C3F;
+    color: #378C3F!important;
     font-size: 20px;
 }
 
